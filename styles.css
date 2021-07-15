@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+.menu {
+    text-align: center;
+    margin: 10px
+}
+
+button {
+    border: 2px solid transparent;
+    background-color: transparent;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+}
+
+button:hover {
+    /* border: solid black; */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: rgb(0, 128, 187);
+}
+
+.title {
+    color:rgb(0, 128, 187);
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 15px;
+    padding-top: 20px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: 2.2px solid rgb(0, 128, 187);
+}
+
+.bio {
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
