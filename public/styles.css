@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(243, 243, 243);
 }
 
 .menu {
@@ -17,7 +17,7 @@ button {
     border: 2px solid transparent;
     background-color: transparent;
     color: black;
-    padding: 14px 28px;
+    padding: 5px 28px;
     font-size: 16px;
 }
 
@@ -35,21 +35,34 @@ button:hover {
     padding: 15px;
     padding-top: 20px;
     font-family: 'Nothing You Could Do', cursive;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .img {
     display: block;
     margin: auto;
-    padding: 10px;
-    border: 2.2px solid rgb(0, 128, 187);
+    padding: 5px;
+    border: 2px solid #E75A7C;
 }
 
 .bio {
     padding: 15px;
     padding-left: 50px;
     padding-right: 50px;
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: center;
     font-size: 16px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    color: #2C363F;
+    width: 60%;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
 }
